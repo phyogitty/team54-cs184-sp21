@@ -1,3 +1,61 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-align {
+  /* top: 50%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  height: 100%;
+  line-height: 100%;
+  text-align: center;
+}
+.item {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+#group-name {
+  font-size: 2rem;
+}
+.dropdown {
+  background-color: #173952 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.dd-item {
+}
+.nav-dim {
+  min-height: 60px;
+}
+
+#topNav-area {
+  min-height: 60px;
+}
+.wid-70 {
+  width: 80%;
+}
+.wid-15 {
+  width: 10%;
+}
+.bg-blue1 {
+  background-color: #173952 !important;
+}
+.bg-blue2 {
+  background-color: #2f6388 !important;
+}
+.bg-blue3 {
+  background-color: #85bfe7 !important;
+}
+
+.tc-white {
+  color: white;
+}
 .App {
   text-align: center;
 }
