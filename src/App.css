@@ -1,10 +1,57 @@
+.main-font {
+  font-family: "Sarabun", sans-serif !important;
+  font-size: 1.2rem;
+}
+.main-title {
+  /* font-weight: 700; */
+  font-size: 1.5rem;
+  width: 100%;
+  background-color: #85bfe7;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fs-3rem {
+  font-size: 3rem;
+}
+.fs-2rem {
+  font-size: 2rem;
+}
+.fs-1-5rem {
+  font-size: 1.5rem;
+}
+.bolded {
+  font-weight: 700;
+}
+.title-font {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.col-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pic {
+  border-radius: 10px;
+}
+.three-in-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
 
+  width: auto;
+}
 .left-align {
   /* top: 50%; */
   display: flex;
@@ -37,11 +84,13 @@
 #topNav-area {
   min-height: 60px;
 }
+
 .wid-70 {
-  width: 80%;
+  width: 70%;
 }
 .wid-15 {
   width: 10%;
+  border-left: 4px solid #173952;
 }
 .bg-blue1 {
   background-color: #173952 !important;
@@ -53,11 +102,28 @@
   background-color: #85bfe7 !important;
 }
 
+.tc-blue1 {
+  color: #173952 !important;
+}
+.tc-blue2 {
+  color: #2f6388 !important;
+}
+.tc-blue3 {
+  color: #85bfe7 !important;
+}
+
 .tc-white {
   color: white;
 }
+.main-app {
+  padding-top: 60px !important;
+}
 .App {
   text-align: center;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 .App-logo {

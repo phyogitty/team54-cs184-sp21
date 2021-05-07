@@ -1,6 +1,11 @@
 import React from "react";
 
 const Abstract = () => {
-  return <div>Abstract</div>;
+  return (
+    <div id="abstract">
+      {" "}
+      <div className="main-title">Abstract</div>
+    </div>
+  );
 };
 export default Abstract;
