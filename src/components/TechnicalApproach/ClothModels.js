@@ -65,8 +65,11 @@ const ClothModels = () => {
       </div>
       <div className="py-2"></div>
       <div>
-        <a href="cloth-visual">Results for Various Cloth Types</a>
+        <a href="#cloth-visual" className="bg-blue2 see-result p-1 tc-blue4">
+          Results for Various Cloth Types
+        </a>
       </div>
+      <div className="py-2"></div>
     </div>
   );
 };

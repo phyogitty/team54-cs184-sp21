@@ -2,8 +2,8 @@ import React from "react";
 import TechApproachDropDown from "./TechApproachDropDown";
 const TopNav = () => {
   return (
-    <div className="fixed-top nav-dim bg-info d-flex flex-row">
-      <div className="wid-70 bg-blue1 tc-white px-3">
+    <div className="fixed-top nav-dim d-flex flex-row" id="topNav">
+      <div className="wid-70 tc-white px-3">
         <div className="left-align">
           <span className="item mx-3" id="group-name">
             Team 54
@@ -12,7 +12,7 @@ const TopNav = () => {
             Abstract
           </a>
           <TechApproachDropDown />
-          <a chref="#results" className="item mx-3">
+          <a href="#results" className="item mx-3">
             Results
           </a>
           <a href="#references" className="item mx-3">

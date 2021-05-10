@@ -1,6 +1,7 @@
 import React from "react";
 
 import Cloth from "./Cloth";
+import Wind from "./Wind";
 const Results = () => {
   return (
     <div id="results">
@@ -10,6 +11,7 @@ const Results = () => {
       <div className="py-2"></div>
       <Cloth />
       <div className="py-2"></div>
+      <Wind />
     </div>
   );
 };

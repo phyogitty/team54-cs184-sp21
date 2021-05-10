@@ -84,7 +84,14 @@
 #topNav-area {
   min-height: 60px;
 }
-
+#topNav {
+  background-color: #173952 !important;
+  opacity: 0.5;
+}
+#topNav:hover {
+  background-color: #173952 !important;
+  opacity: 1;
+}
 .wid-70 {
   width: 70%;
 }
@@ -101,6 +108,10 @@
 .bg-blue3 {
   background-color: #85bfe7 !important;
 }
+.bg-blue1-blur {
+  background-color: #173952 !important;
+  opacity: 0.5;
+}
 
 .tc-blue1 {
   color: #173952 !important;
@@ -110,6 +121,9 @@
 }
 .tc-blue3 {
   color: #85bfe7 !important;
+}
+.tc-blue4 {
+  color: #d8e9f5 !important;
 }
 
 .tc-white {
@@ -125,7 +139,9 @@ a {
   text-decoration: none !important;
   color: inherit !important;
 }
-
+.see-result {
+  border-radius: 5px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

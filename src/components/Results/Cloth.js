@@ -7,7 +7,7 @@ import pic5 from "../../images/pic5_jean.PNG";
 import pic6 from "../../images/pic6_silk.PNG";
 const Cloth = () => {
   return (
-    <div>
+    <div id="cloth-visual">
       <div className="three-in-row">
         <div className="col-display m-2">
           <img

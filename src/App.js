@@ -11,7 +11,7 @@ import Results from "./components/Results";
 
 function App() {
   return (
-    <div className="bg-warning px-5 main-app main-font">
+    <div className=" px-5 main-app main-font">
       <TopNav />
       {/* <div id="topNav-area"></div> */}
       <Title />
