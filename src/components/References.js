@@ -5,7 +5,7 @@ const References = () => {
     <div id="references">
       <div className="main-title">References</div>
 
-      <div className="py-2"></div>
+      <div className="py-3"></div>
       <div>
         Wejchert and Haumann, "Animation Aerodynamics"{" "}
         <a

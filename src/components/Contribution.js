@@ -4,7 +4,7 @@ const Contribution = () => {
   return (
     <div id="contribution">
       <div className="main-title">Contributions</div>
-      <div className="py-2"></div>
+      <div className="py-3"></div>
       <div>
         <span className="fs-1-5rem">Phyo Khine - </span> Phyo was our great
         project manager. She was always responsible for getting us together and
