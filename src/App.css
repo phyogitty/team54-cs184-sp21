@@ -131,6 +131,8 @@
 }
 .main-app {
   padding-top: 60px !important;
+  padding-left: 7rem !important;
+  padding-right: 7rem !important;
 }
 .App {
   text-align: center;
@@ -146,7 +148,9 @@ a {
   height: 40vmin;
   pointer-events: none;
 }
-
+.name {
+  font-size: 2rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

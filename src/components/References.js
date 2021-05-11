@@ -4,7 +4,8 @@ const References = () => {
   return (
     <div id="references">
       <div className="main-title">References</div>
-      <div className="py-1"></div>
+
+      <div className="py-2"></div>
       <div>
         Wejchert and Haumann, "Animation Aerodynamics"{" "}
         <a
@@ -31,6 +32,7 @@ const References = () => {
           <HiExternalLink size="25px" />
         </a>
       </div>
+      <div className="py-2"></div>
     </div>
   );
 };
