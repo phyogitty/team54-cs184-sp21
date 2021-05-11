@@ -5,6 +5,7 @@ const Optimizations = () => {
     <div id="optimizations">
       <div className="py-1"></div>
       <div className="title-font">Optimizing Simulation Speed</div>
+      <div className="py-1"></div>
       <div>
         We also optimized the program by utilizing multithreading. We used the
         OpenMP API to implement multithreading. OpenMP can be easily enabled by
