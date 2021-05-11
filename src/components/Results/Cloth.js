@@ -59,7 +59,7 @@ const Cloth = () => {
             width="auto"
             className="m-2 pic"
           ></img>
-          5) Blue Jean
+          <span id="next-wind-visual">5) Blue Jean</span>
         </div>
         <div className="col-display m-2">
           <img

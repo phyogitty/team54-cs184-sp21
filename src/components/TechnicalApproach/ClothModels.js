@@ -3,6 +3,7 @@ import React from "react";
 const ClothModels = () => {
   return (
     <div id="cloth-models">
+      <div className="pt-4 pb-5"></div>
       <div className="title-font">Simulating Various Cloth Types</div>
       <div className="py-1"></div>
       <div>
@@ -65,11 +66,13 @@ const ClothModels = () => {
       </div>
       <div className="py-2"></div>
       <div>
-        <a href="#cloth-visual" className="bg-blue2 see-result p-2 tc-blue4">
+        <a
+          href="#next-cloth-visual"
+          className="bg-blue2 see-result p-2 tc-blue4"
+        >
           Demo for Various Cloth Types
         </a>
       </div>
-      <div className="py-4"></div>
     </div>
   );
 };

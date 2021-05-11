@@ -8,14 +8,14 @@ const TopNav = () => {
           <span className="item mx-3 bolded" id="group-name">
             <a href="#title">TEAM 54</a>
           </span>
-          <a href="#abstract" className="item mx-3">
+          <a href="#next-abstract" className="item mx-3">
             Abstract
           </a>
           <TechApproachDropDown />
-          <a href="#results" className="item mx-3">
+          <a href="#next-results" className="item mx-3">
             Results
           </a>
-          <a href="#references" className="item mx-3">
+          <a href="#next-references" className="item mx-3">
             References
           </a>
           <a href="#contribution" className="item mx-3">

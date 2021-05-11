@@ -3,6 +3,7 @@ import strokeLaw from "../../images/strokeLaw.png";
 const WindEffect = () => {
   return (
     <div id="wind-effect">
+      <div className="pt-4 pb-5"></div>
       <div className="title-font">Wind Effect on Flag</div>
       <div className="py-1"></div>
       <div>
@@ -28,12 +29,15 @@ const WindEffect = () => {
         speeds and directions.
       </div>
       <div className="py-2"></div>
-      <div>
-        <a href="#wind-visual" className="bg-blue2 see-result p-2 tc-blue4">
+      <div id="next-results">
+        <a
+          href="#next-wind-visual"
+          className="bg-blue2 see-result p-2 tc-blue4"
+        >
           Demo for Wind Effect
         </a>
       </div>
-      <div className="py-4"></div>
+      <div className="pb-4 pt-5"></div>
     </div>
   );
 };

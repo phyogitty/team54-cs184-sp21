@@ -14,7 +14,7 @@ const TechApproachDropDown = () => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu className="bg-blue2">
-          <Dropdown.Item className="dd-item" href="#optimizations">
+          <Dropdown.Item className="dd-item" href="#tech-approach">
             Simulation Speed-up
           </Dropdown.Item>
           <Dropdown.Item className="dd-item" href="#cloth-models">

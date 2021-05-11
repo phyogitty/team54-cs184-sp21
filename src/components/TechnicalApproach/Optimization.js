@@ -3,7 +3,7 @@ import React from "react";
 const Optimizations = () => {
   return (
     <div id="optimizations">
-      <div className="py-1"></div>
+      <div className="py-3"></div>
       <div className="title-font">Optimizing Simulation Speed</div>
       <div className="py-1"></div>
       <div>
@@ -34,13 +34,13 @@ const Optimizations = () => {
       <div className="py-2"></div>
       <div>
         <a
-          href="#optimization-visual"
+          // href="#optimization-visual"
+          href="#next-results"
           className="bg-blue2 see-result p-2 tc-blue4"
         >
           Demo for Optimization
         </a>
       </div>
-      <div className="py-4"></div>
     </div>
   );
 };

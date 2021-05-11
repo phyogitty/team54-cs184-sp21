@@ -6,6 +6,7 @@ import WindEffect from "./WindEffect";
 const TechnicalApproach = () => {
   return (
     <div>
+      <div className="py-4" id="tech-approach"></div>
       <div className="main-title">Technical Approach</div>
       <Optimizations />
       <ClothModels />

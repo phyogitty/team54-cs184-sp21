@@ -5,7 +5,7 @@ const Abstract = () => {
     <div id="abstract">
       {" "}
       <div className="main-title">Abstract</div>
-      <div className="py-2"></div>
+      <div className="py-3"></div>
       <div>
         We thought Project 4 (Cloth Simulation) was very interesting and we
         wanted more. So, in this project, building on top of Project 4, we sped
@@ -15,7 +15,6 @@ const Abstract = () => {
         we implemented the wind effect demonstrated on the flag and visualized
         with the vector fields.
       </div>
-      <div className="py-4"></div>
     </div>
   );
 };

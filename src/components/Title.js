@@ -11,7 +11,7 @@ const Title = () => {
         <div className="fs-2rem bolded py-1">
           Wind Effect And More Cloth Types With Simulation Speed-up
         </div>
-        <div className="fs-1-5rem py-1">
+        <div className="fs-1-5rem py-1" id="next-abstract">
           Phyo Khine, Behrooz Ebrazi, Mie Haga, Frank Warren
         </div>
         <div className="pb-4"></div>
