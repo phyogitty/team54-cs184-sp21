@@ -29,7 +29,8 @@ const Contribution = () => {
         Frank took the lead on implementing the uniform wind fields and also
         contributed to the optimization of the cloth simulation using his great
         research skills. Additionally, he also implemented the interface to
-        enable the users to adjust settings for the wind effect.
+        enable the users to adjust settings for the wind effect, as well as
+        created the demostration videos.
       </div>
       <div className="py-2"></div>
       <div>
