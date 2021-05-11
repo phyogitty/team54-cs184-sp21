@@ -15,7 +15,7 @@ const Optimizations = () => {
         used in the{" "}
         <span className="code-font">Cloth::build_spatial_map()</span>,{" "}
         <span className="code-font">Cloth::self_collide()</span>, and{" "}
-        <span className="code-font">Cloth::hash_position</span>(Vector3D pos)
+        <span className="code-font">Cloth::hash_position (Vector3D pos)</span>
         functions. Because the Microsoft C/C++ compiler (MVSC) only supports
         OpenMP 2.0, which doesn’t support parallelization of iterator based
         for-loops, we had to rewrite some loops to use indices. Also, we had to
