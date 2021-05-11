@@ -1,17 +1,21 @@
 .main-font {
-  font-family: "Sarabun", sans-serif !important;
+  font-family: "Nanum Gothic", sans-serif !important;
   font-size: 1.2rem;
 }
 .main-title {
   /* font-weight: 700; */
   font-size: 1.5rem;
   width: 100%;
-  background-color: #85bfe7;
+  /* background-color: #85bfe7; */
+  background-color: #cde6f7;
+  border-radius: 4px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
+.code-font {
+  font-family: "Space Mono", monospace !important;
+}
 .fs-3rem {
   font-size: 3rem;
 }
@@ -21,8 +25,11 @@
 .fs-1-5rem {
   font-size: 1.5rem;
 }
+.fs-1-2rem {
+  font-size: 1.2rem;
+}
 .bolded {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 .title-font {
   font-size: 1.5rem;
@@ -74,11 +81,12 @@
   background-color: #173952 !important;
   box-shadow: none !important;
   border: none !important;
+  font-size: 1.2rem !important;
 }
 .dd-item {
 }
 .nav-dim {
-  min-height: 60px;
+  min-height: 70px;
 }
 
 #topNav-area {
@@ -86,7 +94,7 @@
 }
 #topNav {
   background-color: #173952 !important;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 #topNav:hover {
   background-color: #173952 !important;
@@ -106,7 +114,8 @@
   background-color: #2f6388 !important;
 }
 .bg-blue3 {
-  background-color: #85bfe7 !important;
+  /* background-color: #85bfe7 !important; */
+  background-color: #a7d4f3 !important;
 }
 .bg-blue1-blur {
   background-color: #173952 !important;
@@ -127,7 +136,17 @@
 }
 
 .tc-white {
-  color: white;
+  color: white !important;
+}
+
+.dd-item {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  color: white !important;
+  font-size: 1.2rem !important;
+}
+.dd-item:hover {
+  background-color: #173952 !important;
 }
 .main-app {
   padding-top: 60px !important;
@@ -143,14 +162,13 @@ a {
 }
 .see-result {
   border-radius: 5px;
+  /* border: 2px solid #2f6388; */
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-.name {
-  font-size: 2rem;
-}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

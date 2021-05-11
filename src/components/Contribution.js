@@ -39,6 +39,7 @@ const Contribution = () => {
         charge of creating presentation slides and videos for both milestone and
         final deliverable, and demonstrated her great organizational skills.
       </div>
+      <div className="py-5"></div>
     </div>
   );
 };

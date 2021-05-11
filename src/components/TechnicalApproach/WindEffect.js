@@ -10,18 +10,10 @@ const WindEffect = () => {
         motivated by the general techniques described in a 1991 SIGGRAPH paper
         by Wejchert and Haumann titled “Animation Aerodynamics”. To approximate
         the interaction with a uniform wind field and our cloth, we used Stoke’s
-        Law:
-        <span className="mx-2">
-          <img
-            src={strokeLaw}
-            alt="Stroke's Law"
-            width="100px"
-            height="25px"
-          ></img>
-        </span>
-        which states that the drag force Fd acting opposite to a particle moving
-        through a fluid with a dynamic viscosity is proportional to the radius R
-        of the particle and the velocity v of the liquid relative to the
+        Law: F<sub>d</sub> = 6&pi;&mu;<i>Rv</i> which states that the drag force
+        F<sub>d</sub> acting opposite to a particle moving through a fluid with
+        a dynamic viscosity &mu; is proportional to the radius <i>R</i> of the
+        particle and the velocity <i>v</i> of the liquid relative to the
         particle. The only modifications to this formula was to use the surface
         area of the cloth instead of radius and to scale the drag force by the
         absolute value of the dot product between the pointMass normal and the
@@ -37,11 +29,11 @@ const WindEffect = () => {
       </div>
       <div className="py-2"></div>
       <div>
-        <a href="#wind-visual" className="bg-blue2 see-result p-1 tc-blue4">
-          Results for Wind Effect
+        <a href="#wind-visual" className="bg-blue2 see-result p-2 tc-blue4">
+          Demo for Wind Effect
         </a>
       </div>
-      <div className="py-2"></div>
+      <div className="py-4"></div>
     </div>
   );
 };

@@ -5,8 +5,8 @@ const TopNav = () => {
     <div className="fixed-top nav-dim d-flex flex-row" id="topNav">
       <div className="wid-70 tc-white px-3">
         <div className="left-align">
-          <span className="item mx-3" id="group-name">
-            Team 54
+          <span className="item mx-3 bolded" id="group-name">
+            <a href="#title">TEAM 54</a>
           </span>
           <a href="#abstract" className="item mx-3">
             Abstract

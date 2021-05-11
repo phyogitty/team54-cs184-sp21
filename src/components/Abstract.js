@@ -15,7 +15,7 @@ const Abstract = () => {
         we implemented the wind effect demonstrated on the flag and visualized
         with the vector fields.
       </div>
-      <div className="py-2"></div>
+      <div className="py-4"></div>
     </div>
   );
 };

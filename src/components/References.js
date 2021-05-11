@@ -32,7 +32,7 @@ const References = () => {
           <HiExternalLink size="25px" />
         </a>
       </div>
-      <div className="py-2"></div>
+      <div className="py-4"></div>
     </div>
   );
 };

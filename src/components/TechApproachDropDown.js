@@ -13,14 +13,14 @@ const TechApproachDropDown = () => {
           Technical Approach
         </Dropdown.Toggle>
 
-        <Dropdown.Menu className="bg-blue3">
-          <Dropdown.Item className="py-2" href="#optimizations">
+        <Dropdown.Menu className="bg-blue2">
+          <Dropdown.Item className="dd-item" href="#optimizations">
             Simulation Speed-up
           </Dropdown.Item>
-          <Dropdown.Item className="py-2" href="#cloth-models">
+          <Dropdown.Item className="dd-item" href="#cloth-models">
             Different Cloth Types
           </Dropdown.Item>
-          <Dropdown.Item className="py-2" href="#wind-effect">
+          <Dropdown.Item className="dd-item" href="#wind-effect">
             Uniform Wind Field
           </Dropdown.Item>
         </Dropdown.Menu>
